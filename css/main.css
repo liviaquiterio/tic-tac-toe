@@ -1,0 +1,28 @@
+:root {
+    --cor-fundo: rgb(71, 139, 110);
+    --cor-fundo-dark: rgb(9, 14, 55);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+.container {
+    display: flex;
+    background: var(--cor-fundo);
+}
+.matriz {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px ;
+    max-width: 500px;
+}
+
+.grid{
+    border: 2px solid red;
+    min-height: 100px;
+    min-width: 100px;
+}
